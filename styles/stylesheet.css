@@ -1,0 +1,61 @@
+body {
+  background-color: orange;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  background-color: white;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+}
+header {
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+nav {
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  margin-right: 10px;
+}
+nav a:link, nav a:visited {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  width: 70px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 11pt;
+}
+nav a:hover, nav a:active {
+    background-color: blue;
+}
+article {
+  margin-bottom: 10px;
+}
+h2 {
+  color: black;
+  padding-left: 0;
+}
+footer {
+  font-size: 8pt;
+}
+.worklist img {
+  height: 40px;
+}
+.worklist li {
+  list-style: none;
+}
