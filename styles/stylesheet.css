@@ -2,6 +2,31 @@
   box-sizing: border-box;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+.worklist img {
+  width: 2rem;
+  transition-property: width;
+  transition-duration: 2s;
+}
+.worklist img:hover {
+  width: 5rem;
+}
+.worklist li:nth-child(odd) {
+  background-color: lightblue;
+}
+.worklist li:nth-child(even) {
+  background-color: lightgrey;
+}
+.worklist a {
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+.worklist a:hover {
+  font-size: 150%;
+}
+nav a {
+  transition-property: font-size;
+  transition-duration: 2s;
+}
 nav ul,footer ul {
   list-style: none;
   display: flex;
@@ -22,7 +47,6 @@ body {
 }
 .container {
   background-color: white;
-  height: 100% auto;
   max-width: 1500px;
   margin: 0 auto;
   padding-left: 1rem;
@@ -55,6 +79,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover, nav a:active {
     background-color: blue;
+    font-size: 200%;
 }
 article {
   margin-bottom: 2rem;
@@ -72,9 +97,6 @@ footer .container {
 footer a {
   padding-right: 0.5rem;
   color: white;
-}
-.worklist img {
-  height: 2rem;
 }
 .worklist li {
   list-style: none;
